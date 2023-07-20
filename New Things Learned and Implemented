@@ -1,0 +1,14 @@
+1. This mini-project is done in Javascript as I have done before Joining organization.
+2. This task includes Normal User login and Authorisation with JWT tokeb.
+3. One of the new thing that I have learned and Implemented in this is ,
+           Not to store JWT token in Local storage or to send in Headers as before , as I understood by reading and through Videos as it is 
+           Prone to XSS attacks.
+
+4. Here, I stored JWT token Cookie , with help of Cookie-parser module . Plus, Cookie is (HTTP-ONLY); which is not (LAX) which is safe against 
+    CROSS -SITE FORGERY ATTACKS
+
+5. Speciality of this project is : 
+                    (i). User Logs-in; Creates a folder to store tasks. A seperate JWT token for each folder created which is stored in Cookie.
+                         So, that Folder is in Active state and Task to be created goes to that folder.
+                     (ii). If the user wants to open  a certain folder, user clicks on it and that folder is activated.
+                    (iii). To be honest, Did'nt implenment deleting task and other as it is a Normal CRUD -operations which are routine. 
